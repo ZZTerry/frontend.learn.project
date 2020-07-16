@@ -43,7 +43,6 @@
         // console.log(response);
         if (response.errno === ERR_OK) {
           // this.seller = response.data; // 使用该方法会将seller中新加的属性id覆盖掉
-          // console.log(this.seller);
           // assign第一个参数是最终返回值，第二个第三个参数做数据拼接效果
           this.seller = Object.assign({}, this.seller, response.data); // 给对象扩展属性
           // console.log(this.seller.id);
