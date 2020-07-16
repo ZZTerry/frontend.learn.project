@@ -2,6 +2,11 @@
 
 > sell app
 
+Vue2.9.6实现饿了么商家点餐页面。
+
+知识点总结： vue.js + vue-cli + vue-resource + vue-router + better-scroll + webpack + stylus + es6 + eslint
+以及设备像素比、flex布局和贝赛尔曲线等。
+
 ## Build Setup
 
 ``` bash
